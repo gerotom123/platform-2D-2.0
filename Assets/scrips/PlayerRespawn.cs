@@ -9,6 +9,7 @@ public class PlayerRespawn : MonoBehaviour
     public void PlayerDamaged()
     {
         animator.Play("hit");
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 }   }
 
